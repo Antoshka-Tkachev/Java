@@ -11,6 +11,7 @@ public class BookTest {
         //создание объектов
         Book first_book = new Book("Колобок", "Народ", 100, 1969);
         Book second_book = new Book();
+        System.out.println("Информация о первой книге заполнена!\n");
 
         //измененние паратметров второй книги
         System.out.print("Введите название 2ой книги: ");
