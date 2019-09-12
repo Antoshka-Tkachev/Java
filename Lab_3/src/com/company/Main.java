@@ -6,12 +6,12 @@ public class Main {
         //1 часть
         System.out.println("1 часть");
         Dish[] arrayDish = new Dish[] { new Cup(), new Plate(), new Spoon()};
-        for(int i = 0; i < arrayDish.length; i++) {
+        for (Dish dish : arrayDish) {
             System.out.print("Кухонный прибор: ");
-            arrayDish[i].info();
+            dish.info();
             System.out.print("Миссия прбора: ");
-            arrayDish[i].mission();
-            System.out.println("");
+            dish.mission();
+            System.out.println();
         }
 
         //2 часть
