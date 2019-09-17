@@ -11,18 +11,18 @@ public class Main {
         choice = in.nextInt();
         switch (choice){
             case 1:
-                int SIZE;
+                int size;
                 double sum = 0;
                 System.out.print("Введите количество элементов в массиве: ");
-                SIZE = in.nextInt();
-                double[] array = new double[SIZE];
-                for (int i = 0; i < SIZE; i++) {
+                size = in.nextInt();
+                double[] array = new double[size];
+                for (int i = 0; i < size; i++) {
                     System.out.print("Введите " + (i + 1) + " элемент массива: ");
                     array[i] = in.nextDouble();
                 }
 
                 //подсчет суммы с помощью for
-                for (int i = 0; i < SIZE; i++) {
+                for (int i = 0; i < size; i++) {
                     sum += array[i];
                 }
                 System.out.println("Сумма с помощью цикла for = " + sum);
@@ -30,7 +30,7 @@ public class Main {
                 //подсчет суммы с помощью while
                 sum = 0;
                 int  count = 0;
-                while (count != SIZE){
+                while (count != size){
                     sum += array[count];
                     count++;
                 }
@@ -42,7 +42,7 @@ public class Main {
                 do {
                     sum += array[count];
                     count++;
-                } while (count != SIZE);
+                } while (count != size);
                 System.out.println("Сумма с помощью цикла do while = " + sum);
                 break;
 
@@ -98,7 +98,7 @@ public class Main {
                 int digit = in.nextInt();
                 int factor = 1;
                 for (int i = 1; i <= digit; i++)
-                    factor*=i;
+                    factor *= i;
                 System.out.println("Факториал числа " + digit + " = " + factor);
 
                 break;

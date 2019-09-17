@@ -21,7 +21,7 @@ public class Main {
         System.out.println("\nInformation\n" + first.toString());
 
         System.out.print("\nSet email: ");
-        email = in.nextLine();
+        first.setEmail(in.nextLine());
 
         System.out.println("\nNew information\n" + first.toString());
     }

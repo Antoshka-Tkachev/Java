@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="307f7452-0575-4a67-982f-c20f07d13998" name="Default Changelist" comment="" />
+    <list default="true" id="8a292059-17b7-4b85-b117-398c4e608b1f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1QdWc0bHNTFVEnvR9HEyYpGurQm" />
+  <component name="ProjectId" id="1QyHV8bruFF09UcvByqAys2V69Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab_2_Part_1" />
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -31,8 +36,8 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Lab_1" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 3" />
+      <module name="Lab_4" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -50,11 +55,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="307f7452-0575-4a67-982f-c20f07d13998" name="Default Changelist" comment="" />
-      <created>1568101028581</created>
+      <changelist id="8a292059-17b7-4b85-b117-398c4e608b1f" name="Default Changelist" comment="" />
+      <created>1568735936195</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568101028581</updated>
+      <updated>1568735936195</updated>
     </task>
     <servers />
   </component>
@@ -63,9 +68,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
