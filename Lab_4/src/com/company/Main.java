@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int choise;
+        int choice;
         Scanner in = new Scanner(System.in);
         System.out.print("Выберете номер варианта: ");
-        choise = in.nextInt();
+        choice = in.nextInt();
         in.skip("\n");
-        switch (choise) {
+        switch (choice) {
             case 1:
                 String name;
                 System.out.print("Введите имя человека: ");
