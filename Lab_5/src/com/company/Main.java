@@ -14,8 +14,25 @@ public class Main {
         System.out.print("Введите номер варианта: ");
         choice = in.nextInt();
         switch (choice) {
-            case 1: //как отрывать 1 окно и все рисовать туда
-                Shape[] shapes = new Shape[] { new Square(), new Rectangle() };
+            case 1:
+                JFrame window = new JFrame("Window");
+                window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+                window.setBounds(250, 10, 1000, 900);
+                window.setVisible(true);
+
+
+                JPanel panel = new JPanel();
+
+                Square square = new Square();
+                Rectangle rectangle = new Rectangle();
+
+                panel.add(square);
+                panel.add(rectangle);
+                window.setContentPane(panel);
+
+
+
+                //Shape[] shapes = new Shape[] { new Square(), new Rectangle() };
                 break;
             case 2:
                 Image img = new Image(args[0]);
