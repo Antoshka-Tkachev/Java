@@ -12,6 +12,8 @@ public class Main {
         }
         Random random = new Random();
 
+
+
         System.out.print("Выберете вариант: ");
         int choice = in.nextInt();
         in.skip("\n");
@@ -26,6 +28,16 @@ public class Main {
                     second.push(buffer.remove(random.nextInt(10 - (i + 1))));
 
                 }
+                System.out.print("Карты первого игрока: ");
+                for (int i = 0; i < first.size(); i++) {
+                    System.out.print(first.get(i));
+                }
+                System.out.println("");
+                System.out.print("Карты второго игрока: ");
+                for (int i = 0; i < second.size(); i++) {
+                    System.out.print(second.get(i));
+                }
+                System.out.println("");
 
                 int count = 0;
                 while (!first.isEmpty() && !second.isEmpty() && count != 106) {
@@ -55,6 +67,7 @@ public class Main {
             case 2:
                 Queue <Integer> first_2 = new LinkedList <>();
                 Queue <Integer> second_2 = new LinkedList <>();
+
                 for (int i = 0; i < 10; i += 2) {
                     first_2.offer(buffer.remove(random.nextInt(10 - i)));
                     second_2.offer(buffer.remove(random.nextInt(10 - (i + 1))));

@@ -1,8 +1,21 @@
 package com.company;
 
+import java.util.Objects;
+
 public class MyArrayList <T> {
-    private int size = 0;
-    private Object[] array = new Object[0];
+   // private int init_size;
+    private int size;
+    private Object[] array;
+
+    public MyArrayList () {
+        size = 0;
+        array = new Object[0];
+    }
+
+//    public MyArrayList (int int_size) {
+//        this.init_size = int_size;
+//        array = new Object[int_size];
+//    }
 
     private void resize(int newSize) {
         Object[] newArray = new Object[newSize];
@@ -12,6 +25,7 @@ public class MyArrayList <T> {
     }
 
     public void add(T element) {
+       // if(size < init_size)
         resize(size + 1);
         Object[] newArray = new Object[size];
         System.arraycopy(array, 0, newArray, 0, size - 1);
@@ -52,9 +66,9 @@ public class MyArrayList <T> {
         return temp;
     }
 
-    public int indexOf(Object element) { // почему не работает для 555
+    public int indexOf(T element) { // почему не работает для 555
         for (int i = 0; i < size; i++) {
-            if (array[i] == element) {
+            if (array[i].equals(element)) {
                 return i;
             }
         }
@@ -64,7 +78,7 @@ public class MyArrayList <T> {
 
     public boolean contains(Object element) { // почему не работает для 555
         for (int i = 0; i < size; i++) {
-            if (array[i] == element) {
+            if (array[i].equals(element)) {
                 return true;
             }
         }

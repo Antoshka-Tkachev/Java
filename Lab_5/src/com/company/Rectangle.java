@@ -32,9 +32,10 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public void paint(Graphics g) {
+    public void draw(Graphics g) {
         g.setColor(new Color(rgb[0], rgb[1], rgb[2]));
         g.drawPolygon(x, y, getNumberOfVertices());
         g.fillPolygon(x, y, getNumberOfVertices());
     }
+
 }

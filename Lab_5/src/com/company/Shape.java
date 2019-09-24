@@ -1,11 +1,9 @@
 package com.company;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.util.Random;
 
-public abstract class Shape extends JPanel {
+public abstract class Shape {
     protected Random random = new Random();
     protected int[] x;
     protected int[] y;
@@ -20,6 +18,8 @@ public abstract class Shape extends JPanel {
         this.numberOfVertices = numberOfVertices;
     }
 
-    public Shape() { }
+    public Shape() {
+    }
 
+    public abstract void draw(Graphics page);
 }

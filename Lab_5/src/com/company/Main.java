@@ -18,24 +18,12 @@ public class Main {
                 JFrame window = new JFrame("Window");
                 window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
                 window.setBounds(250, 10, 1000, 900);
+                window.getContentPane().add(new ShapePaint());
                 window.setVisible(true);
 
-
-                JPanel panel = new JPanel();
-
-                Square square = new Square();
-                Rectangle rectangle = new Rectangle();
-
-                panel.add(square);
-                panel.add(rectangle);
-                window.setContentPane(panel);
-
-
-
-                //Shape[] shapes = new Shape[] { new Square(), new Rectangle() };
                 break;
             case 2:
-                Image img = new Image(args[0]);
+                new Image(args[0]);
                 break;
             case 3:
                 Animation app = new Animation();

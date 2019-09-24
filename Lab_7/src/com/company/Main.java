@@ -108,8 +108,10 @@ public class Main {
                     System.out.println(list.get(i));
                 }
 
-                System.out.println("\nИндекс искомого элемента: " + list.indexOf(1)); //555
-                System.out.println("Элемент найден? " + list.contains(1));            //555
+                System.out.println("Размер массива: " + list.size());
+
+                System.out.println("\nИндекс искомого элемента: " + list.indexOf(555)); //555
+                System.out.println("Элемент найден? " + list.contains(555));            //555
 
                 System.out.println("Очищение массива!");
                 list.clear();
