@@ -52,7 +52,12 @@ public class Book {
         return price;
     }
 
-    public String ToString(){
-        return "Название книги: " + name + " Автор книги: " + autor + " Цена книги: " + price;
+    @Override
+    public String toString() {
+        return "Book{" +
+                "name='" + name + '\'' +
+                ", autor='" + autor + '\'' +
+                ", price=" + price +
+                '}';
     }
 }

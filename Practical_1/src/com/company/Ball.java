@@ -39,7 +39,11 @@ public class Ball {
         return color;
     }
 
-    public String ToString(){
-        return "Размер мяча: " + size + " Цвет мяча: " + color;
+    @Override
+    public String toString() {
+        return "Ball{" +
+                "size=" + size +
+                ", color='" + color + '\'' +
+                '}';
     }
 }

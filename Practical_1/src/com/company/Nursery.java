@@ -18,15 +18,15 @@ public class Nursery {
         Book third_book = new Book("Колобок");
         Book fourth_book = new Book();
 
-        System.out.println(first_ball.ToString());
-        System.out.println(second_ball.ToString());
-        System.out.println(third_ball.ToString());
-        System.out.println(fourth_ball.ToString());
+        System.out.println(first_ball);
+        System.out.println(second_ball);
+        System.out.println(third_ball);
+        System.out.println(fourth_ball);
 
-        System.out.println(first_book.ToString());
-        System.out.println(second_book.ToString());
-        System.out.println(third_book.ToString());
-        System.out.println(fourth_book.ToString());
+        System.out.println(first_book);
+        System.out.println(second_book);
+        System.out.println(third_book);
+        System.out.println(fourth_book);
 
 
     }

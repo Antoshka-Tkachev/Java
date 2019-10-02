@@ -27,7 +27,12 @@ public class Author {
         this.email = email;
     }
 
-    public String toString(){
-        return "Name: " + name + "\nEmail: " + email + "\nGender: " + gender;
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", gender=" + gender +
+                '}';
     }
 }

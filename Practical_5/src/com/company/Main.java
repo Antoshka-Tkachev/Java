@@ -26,6 +26,18 @@ public class Main {
                 String output = "";
                 Odd(output);
                 break;
+            case 4:
+                //Вывод чисел от 1 до n
+                System.out.print("Введите число: ");
+                System.out.println(Order(in.nextInt()));
+                break;
+            case 5:
+                //Треугольная последовательность
+                System.out.print("Введите число: ");
+                Triangle(in.nextInt());
+                break;
+            default:
+                break;
         }
     }
 
@@ -44,12 +56,9 @@ public class Main {
     public static int One() {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        // Базовый случай 
         if (n != 0) {
             int m = in.nextInt();
-            // Базовый случай 
             if (m != 0) {
-                // Шаг рекурсии / рекурсивное условие
                 if (n == 1 || m == 1) {
                     if (n == m) {
                         return  One() + 2;
@@ -62,9 +71,7 @@ public class Main {
                 }
             } else {
                 int k = in.nextInt();
-                // Базовый случай 
                 if (k != 0) {
-                    // Шаг рекурсии / рекурсивное условие
                     if (k == 1 || n == 1) {
                         if (k == n) {
                             return One() + 2;
@@ -84,7 +91,6 @@ public class Main {
             }
         } else {
             int m = in.nextInt();
-            // Базовый случай 
             if (m != 0) {
                 if (m == 1) {
                     return One() + 1;
@@ -111,5 +117,28 @@ public class Main {
             System.out.println("Нечетные числа в введенной последовательности: " + output);
         }
     }
-    
+
+    public static String Order(int n) {
+        if (n == 1) {
+            return "1";
+        }
+        return Order(n - 1) + " " + n;
+    }
+
+    public static String Triangle(int n) {
+        int sum = 0;
+        int j = 0;
+        // Базовый случай
+        if (n == 1) {
+            System.out.print("1");
+        } else {
+            for (int i = 1; sum < n; i++) {
+                sum += i;
+                j = i;
+            }
+            // Шаг рекурсии / рекурсивное условие
+            System.out.print(Triangle(--n) + " " + j);
+        }
+        return "";
+    }
 }

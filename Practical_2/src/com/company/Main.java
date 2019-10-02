@@ -18,11 +18,11 @@ public class Main {
         gender = in.nextLine();
 
         Author first = new Author(name, email, gender.charAt(0));
-        System.out.println("\nInformation\n" + first.toString());
+        System.out.println("\nInformation\n" + first);
 
         System.out.print("\nSet email: ");
         first.setEmail(in.nextLine());
 
-        System.out.println("\nNew information\n" + first.toString());
+        System.out.println("\nNew information\n" + first);
     }
 }
