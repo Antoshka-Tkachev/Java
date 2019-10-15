@@ -26,6 +26,7 @@ public class MyPanel extends JPanel {
                     //dispose();
                     //setVisible(false);
                     System.exit(1);
+
                 } else {
                     if (number > Integer.parseInt(digit.getText())) {
                         JOptionPane.showMessageDialog(null, "Загаданное число больше " + Integer.parseInt(digit.getText()) + "!");
