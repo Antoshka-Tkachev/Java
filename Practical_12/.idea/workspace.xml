@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9e1846b-0c43-4dbe-bfbf-cc26ab77f4ca" name="Default Changelist" comment="" />
+    <list default="true" id="ce11ce6f-6b41-43e9-9596-8d29816ef0f3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1R7WvJoqHZN6Gd6sZ4Gon8jgzHq" />
+  <component name="ProjectId" id="1USrEOHRVdpSOx6xk8ufy2j7gbT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab_7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Max Lab/OOP_Java_Applications-master/OOP_Java_Applications-master/TenthLab" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,7 +41,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Lab_8" />
+      <module name="Practical_12" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -50,11 +60,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9e1846b-0c43-4dbe-bfbf-cc26ab77f4ca" name="Default Changelist" comment="" />
-      <created>1569018843703</created>
+      <changelist id="ce11ce6f-6b41-43e9-9596-8d29816ef0f3" name="Default Changelist" comment="" />
+      <created>1575360724622</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569018843703</updated>
+      <updated>1575360724622</updated>
     </task>
     <servers />
   </component>
