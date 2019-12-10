@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="483b364a-5bb3-4a24-9e4d-9e10f2cb1314" name="Default Changelist" comment="" />
+    <list default="true" id="3c704160-8e36-48b6-8f5c-f14164f73e09" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1URczMY5hqSOMQfiRLIFbCgKwut" />
+  <component name="ProjectId" id="1UhyghilzpThgE0mY5LKqToMc2B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sudoku" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Max Lab/OOP_Java_Applications-master/TwelthLab" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,7 +38,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Lab_9" />
+      <module name="Lab_13" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -50,11 +57,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="483b364a-5bb3-4a24-9e4d-9e10f2cb1314" name="Default Changelist" comment="" />
-      <created>1575323109612</created>
+      <changelist id="3c704160-8e36-48b6-8f5c-f14164f73e09" name="Default Changelist" comment="" />
+      <created>1575823234306</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575323109612</updated>
+      <updated>1575823234306</updated>
     </task>
     <servers />
   </component>
