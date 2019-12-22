@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="699.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label layoutX="250.0" layoutY="14.0" prefHeight="110.0" prefWidth="200.0" text="Мяснов" textFill="#8d0ef4">
+            <font>
+                <Font name="System Bold Italic" size="50.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelName" layoutX="64.0" layoutY="124.0" text="Номер заказа:">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textName" layoutX="211.0" layoutY="125.0" prefHeight="27.0" prefWidth="59.0" />
+        <Label fx:id="labelMenu" layoutX="64.0" layoutY="209.0" prefHeight="40.0" prefWidth="265.0" text="Сегодня в проаже:" textFill="#8d0ef4">
+            <font>
+                <Font name="System Bold Italic" size="28.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelSteik" layoutX="240.0" layoutY="263.0" prefHeight="20.0" prefWidth="156.0" text="Стейк 100гр">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCountSteik" layoutX="401.0" layoutY="260.0" prefHeight="25.0" prefWidth="27.0" />
+        <Label fx:id="labelShashlik" layoutX="241.0" layoutY="302.0" prefHeight="20.0" prefWidth="156.0" text="Шашлык 100гр">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCountShashlik" layoutX="402.0" layoutY="299.0" prefHeight="25.0" prefWidth="27.0" />
+        <Label fx:id="labelChickenGril" layoutX="243.0" layoutY="341.0" prefHeight="20.0" prefWidth="156.0" text="Курица гриль 1кг">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCountChickenGril" layoutX="404.0" layoutY="338.0" prefHeight="25.0" prefWidth="27.0" />
+        <Label fx:id="labelShaurma" layoutX="243.0" layoutY="377.0" prefHeight="20.0" prefWidth="156.0" text="Шаурма 1шт">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCountShaurma" layoutX="404.0" layoutY="374.0" prefHeight="25.0" prefWidth="27.0" />
+        <Label fx:id="labelSok" layoutX="243.0" layoutY="416.0" prefHeight="20.0" prefWidth="156.0" text="Сок 1л">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="textCountSok" layoutX="404.0" layoutY="413.0" prefHeight="25.0" prefWidth="27.0" />
+        <Button fx:id="buttonBuy" layoutX="554.0" layoutY="439.0" mnemonicParsing="false" onAction="#clickedBuy" text="Заказать">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+      <CheckBox fx:id="Upakovka" layoutX="418.0" layoutY="118.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="223.0" text="Упаковать с собой">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="474.0" layoutY="265.0" text="200руб">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="302.0" text="100руб">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="341.0" text="400руб">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="377.0" text="120руб">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="416.0" text="85руб">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
